@@ -4,6 +4,9 @@ This project is a small serverless lab for a vehicle booking workflow built with
 
 The main backend logic lives in `function_app.py`. It receives booking requests, checks a mock fleet dataset, picks an available vehicle when possible, calculates pricing, and returns either a confirmed or rejected result. The project also includes a simple frontend in `client.html` that submits booking messages to Service Bus and displays the results as they come back from the workflow.
 
+## Demo Video
+[Lab3 demo](https://youtu.be/3TpEqHtGf8Y)
+
 ## Codebase overview
 
 - `function_app.py` - Python Azure Function App with:
